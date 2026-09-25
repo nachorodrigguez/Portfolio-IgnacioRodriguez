@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignacio Rodriguez | Desarrollador de Software</title>
+    <meta name="description"
+        content="Portfolio de Ignacio Rodriguez, Desarrollador de Software especializado en soluciones robustas y web.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">&lt;Ignacio Rodriguez/&gt;</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-container grid">
+                <div class="hero-data">
+                    <h1 class="hero-title">Ignacio Rodriguez <br> <span>Desarrollador de Software</span></h1>
+                    <p class="hero-description">
+                        Soy un estudiante de la Tecnicatura en Programacion, en proceso de formacion solida en desarrollo de software.
+                        Actualmente, me encuentro ampliando mis habilidades en Bases de datos SQL y .NET FRAMEWORK (C#). 
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="#contacto" class="btn btn-outline">Contactar</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/nachorodrigguez" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ignacio-rodriguez-5a7772268/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="profile-img">
+                    <img src="./images/WhatsApp Image 2026-09-25 at 14.51.27.jpeg" alt="Foto de Ignacio Rodriguez">
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="habilidades">
+            <div class="container">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="skills-container grid">
+
+                    <div class="skills-category">
+                        <h3 class="skills-subtitle"><i class="fas fa-code"></i> Bajo Nivel / Backend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-cuttlefish"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="csharp-icon">C#</span>
+                                <span>C#</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3 class="skills-subtitle"><i class="fas fa-database"></i> Bases de Datos</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fas fa-server"></i>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3 class="skills-subtitle"><i class="fas fa-laptop-code"></i> Desarrollo Web</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects section" id="proyectos">
+            <div class="container">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="projects-container grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1e1e24/00f0ff?text=Project+1" alt="Proyecto 1">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de Gestión de Gimnasio</h3>
+                            <p class="project-description">Aplicación de escritorio para la gestión operativa de
+                                gimnasios, administracion de socios, planes, clases, instructores y pagos. El sistema
+                                esta pensado para ser usado por el personal de adminitracion del gimnasio.</p>
+                            <div class="project-tags">
+                                <span class="tag">C++</span>
+                                <span class="tag">Archivos</span>
+                                <span class="tag">GitHUB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Ver Demo</a>
+                                <a href="https://github.com/nachorodrigguez/FitManage"
+                                    class="btn btn-outline btn-small"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1e1e24/8a2be2?text=Project+2" alt="Proyecto 2">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sentir Pilates</h3>
+                            <p class="project-description">Pagina desarrollada con HTML, CSS y Java Script, enfocada en
+                                agilizar el primer contacto con el cliente, ofreciendo informacion rapida en la web sobre clases y precios.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GitHUB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://espaciosentir.com/" class="btn btn-small">Ver Demo</a>
+                                <a href="https://github.com/nachorodrigguez/Sentir-Pilates" class="btn btn-outline btn-small"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1e1e24/00f0ff?text=Project+3" alt="Proyecto 3">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Catalogo de Articulos</h3>
+                            <p class="project-description">Aplicacion de escritiorio en C# para gestionar un catalogo de articulos, con marcas, categorias e imagenes.</p>
+                            <div class="project-tags">
+                                <span class="tag">C#</span>
+                                <span class="tag">Winforms</span>
+                                <span class="tag">.NET FrameWork</span>
+                                <span class="tag">Base de datos SQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Ver Demo</a>
+                                <a href="https://github.com/nachorodrigguez/tp-winform-equipo-v" class="btn btn-outline btn-small"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contacto">
+            <div class="container">
+                <h2 class="section-title">Contáctame</h2>
+                <div class="contact-container grid">
+                    <div class="contact-info">
+                        <h3 class="contact-subtitle">Hablemos sobre tu próximo proyecto</h3>
+                        <p class="contact-text">Estoy disponible para oportunidades freelance, contratos o roles a
+                            tiempo completo. ¡Ponte en contacto!</p>
+                        <div class="contact-methods">
+                            <a href="mailto:correo@ejemplo.com" class="contact-method">
+                                <i class="fas fa-envelope"></i> nachorodrigguez@gmail.com
+                            </a>
+                            <a href="https://www.linkedin.com/in/ignacio-rodriguez-5a7772268/" class="contact-method">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/nachorodrigguez" class="contact-method">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <form action="https://formspree.io/f/xeaolpjy" method="POST" class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                            <label for="name" class="form-label">Nombre</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                            <label for="email" class="form-label">Correo electrónico</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder=" " required>
+                            <label for="subject" class="form-label">Asunto</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-input" placeholder=" " rows="5" required></textarea>
+                            <label for="message" class="form-label">Mensaje</label>
+                        </div>
+                        <p class="form-message" id="form-message"></p>
+                        <button type="submit" class="btn btn-primary form-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copy">&#169; 2026 Ignacio Rodriguez. Todos los derechos reservados.</p>
+            <div class="footer-social">
+                <a href="https://github.com/nachorodrigguez" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ignacio-rodriguez-5a7772268/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <a href="#inicio" class="footer-scroll" aria-label="Volver arriba">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
